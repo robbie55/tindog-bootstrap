@@ -1,0 +1,201 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.big-heading {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 75px 40px 50px 0;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+
+.card-body {
+  margin: 15px 0;
+}
+
+.card-header,
+#testimonials,
+.pay-btn:hover {
+  background: #ef8172;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.cta-h3 {
+  color: whitesmoke;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  padding: 0 5% 3%;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.fix-div {
+  position: relative;
+}
+
+.icon {
+  color: #ef8172;
+  margin: 50px
+}
+
+.icon:hover {
+  color: #FF4C68;
+}
+
+.iphone-img {
+  position: absolute;
+  top: 50px;
+  transform: rotate(25deg);
+  width: 50%;
+}
+
+.last-btn {
+  margin: 10px;
+}
+
+.logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  padding: 0 30px;
+}
+
+.pay-btn {
+  border-color: #ef8172;
+  color: #ef8172;
+  width: 80%;
+}
+
+.pay-btn:hover {
+  background-color: #ef8172;
+  border-color: #ef8172;
+}
+
+.price-col {
+  padding: 3% 2%;
+}
+
+.price-h2 {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+.testimonial-text {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#cta {
+  background-color: #FF4C68;
+  padding: 5%;
+
+}
+
+#features {
+  background-color: whitesmoke;
+  padding: 100px 0;
+  position: relative;
+
+  line-height: 1.5;
+}
+
+#footer {
+
+  padding: 5%;
+}
+
+#press {
+  background-color: #ef8172;
+
+  padding-bottom: 3%;
+}
+
+#pricing {
+  padding: 7% 5%;
+}
+
+#title {
+  color: whitesmoke;
+  background-color: #FF4C68;
+  text-align: left;
+}
+
+#testimonials {
+  color: whitesmoke;
+  background-color: #ef8172;
+
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone-img {
+    position: static;
+    transform: rotate(0deg);
+  }
+}
